@@ -1,0 +1,4 @@
+1)
+ i)  select * from student where houseID = 'HS3'; 
+
+ ii) select student.studentID, student.houseID, name from student;
