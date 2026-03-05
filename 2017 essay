@@ -1,0 +1,10 @@
+1) create table student( 
+    student_no char(5), 
+    name char(30), 
+    address char(100), 
+    primary key (student_no));
+ 
+  
+  i)  INSERT INTO student VALUES ('1001','saman kumara','78,mahararoad,Maharagama');
+  
+  ii) UPDATE student Address = 'B, school Lane,Jaffna' WHERE Student_number = 10001;
