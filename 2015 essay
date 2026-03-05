@@ -1,0 +1,13 @@
+CREATE TABLE unit ( 
+       instituteCode varchar(10) NOT NULL, 
+       unitCode varchar(10) NOT NULL, 
+       unitTitle varchar(50) DEFAULT NULL, 
+       PRIMARY KEY (instituteCode,unitCode), 
+       FOREIGN KEY (instituteCode) REFERENCES institute(instituteCode));
+
+i)  instituteCode,unitcode
+
+ii) NOTNULL
+    PRIMARY KEY
+    DEFAULT
+    FORIGN KEY
