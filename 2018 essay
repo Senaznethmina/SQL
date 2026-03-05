@@ -2,3 +2,5 @@
  i)  SELECT Address,Name FROM STAFF; 
  
  ii) SELECT Name FROM DEPENDANTS WHERE staffID = 'E001124';
+2)
+ i)  INSERT INTO CLASS (ClassID, ClassName, ClassTeacher, Stream, Year) VALUES ('1115', '13-C', 'A.B. Jinasena', 'Technology', '2018'); 
