@@ -1,0 +1,2 @@
+1)   
+ ii) SELECT Marks FROM Mark WHERE Subject.SubjectID='Al001' AND Student.StudentID='ST0001';
