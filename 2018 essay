@@ -1,0 +1,4 @@
+1)
+ i)  SELECT Address,Name FROM STAFF; 
+ 
+ ii) SELECT Name FROM DEPENDANTS WHERE staffID = 'E001124';
