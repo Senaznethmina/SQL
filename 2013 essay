@@ -1,0 +1,4 @@
+1
+ i)  SELECT DISTINCT name FROM studentsport WHERE capacity != 'captain' AND studentsport.sportID = sport.sportID;
+
+ ii) SELECT student.studentID,student.name,studentsport.studentID,studentsport.name FROM student,studentsport WHERE capacity = 'captain' AND studentsport.studentID= student.studentID;
