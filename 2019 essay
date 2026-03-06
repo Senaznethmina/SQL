@@ -1,0 +1,7 @@
+1)
+i)  CREATE TABLE Rent  
+    (Customer_NIC varchar(10),  
+    Vehicle_Reg_No varchar(8), Rent_Date date, Start_Time time, End_Time time, 
+    PRIMARY KEY (Customer_NIC, Vehicle_Reg_No)
+
+ii) SELECT Vehicle_Reg_No,Vehicle.Owner_Id FROM Vehicle;
