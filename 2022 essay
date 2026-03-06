@@ -1,0 +1,8 @@
+1)   
+  i) SELECT Employee.FullName, Employee.Salary 
+     FROM Employee, Assign_Project 
+     WHERE Assign Project Employeeld = Employee Employeeld;
+     
+ ii) SELECT Employee.FullName FROM Employee,Assign_Project WHERE Assign_Project.ProjectId = employee.EmployeeId AND Assign_Project.ProjectId = 'P04';
+
+iii) UPDATE Assign_Project SET PName = 'Salesayer' WHERE EmplyeeId = 'E008';
