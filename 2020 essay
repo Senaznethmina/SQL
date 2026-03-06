@@ -1,0 +1,2 @@
+1)
+i) SELECT COUNT (*) FROM Winner WHERE Medaltype = 'Gold';
