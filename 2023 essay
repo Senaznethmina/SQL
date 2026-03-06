@@ -1,1 +1,18 @@
+1)
+i)  CREATE TABLE Employee ( 
+      Emp_ID VARCHAR(4) PRIMARY KEY, 
+      Emp_Name VARCHAR(50), 
+      DoB DATE, 
+      Department VARCHAR(50), 
+      Designation VARCHAR(50), 
+      DoJ DATE, 
+      Salary DECIMAL(10,2)); 
 
+ii)  INSERT INTO Employee  
+     VALUES ('E119', 'John', '15-06-1971', 'IT', 'Professor', '15-07-2001', 107000);
+
+iii) SELECT Emp_ID, Emp_Name 
+     FROM Employee 
+     WHERE Salary>103000; 
+
+iv)  SELECT Emp_name FROM Employee WHERE Department = 'Civil';
